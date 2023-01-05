@@ -15,6 +15,7 @@
     margin-bottom: 20px;
 }
 .btn-pri{
+    margin: 20px 750px 20px 750px;
     background-color: rgb(249, 30, 30);
     color: white;
     border: none;
@@ -24,6 +25,7 @@
     font-size: 25px;
     padding: 15px;
 }
+
 nav{
     text-align: center;
     background-image: url('/images/donation13.jpg');
@@ -32,4 +34,48 @@ nav{
     background-size: cover;
     color: white;
     font-weight: 800;
+}
+
+/* Donate Today */
+
+.sec-tittle{
+    text-align: center;
+    font-size: 400%;
+    font-weight: 700;
+    padding-top: 150px;
+    margin-bottom: 30px;
+}
+.sec-des{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 50px;
+    padding: 0 320px 0 320px;
+}
+.tk{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 320px 0 320px;
+}
+.taka{
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 320px 0 320px;
+    margin-bottom: 50px;
+}
+.tk1{
+    box-shadow: 1px 1px 1px 1px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.tk1:hover{
+    border: 2px solid red;
+    background-color: black;
+    color: red;
+}
+.hr{
+    padding: 0 300px 0 300px;
 }
