@@ -15,7 +15,7 @@
     margin-bottom: 20px;
 }
 .btn-pri{
-    margin: 20px 750px 20px 750px;
+    margin: 20px 750px 0 750px;
     background-color: rgb(249, 30, 30);
     color: white;
     border: none;
@@ -78,4 +78,127 @@ nav{
 }
 .hr{
     padding: 0 300px 0 300px;
+}
+/* Our Donate Plan */
+.card{
+    margin: 0 280px 0 280px;
+    display: flex;
+    gap: 35px;
+}
+
+.internal1{
+    height: 250px;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+.internal2{
+    height: 250px;
+    background-color: rgb(230, 248, 203);
+    padding: 20px;
+}
+.internal3{
+    height: 250px;
+    background-color: rgb(248, 248, 157);
+    padding: 20px;
+}
+/* Pic and art */
+.sec1{
+    margin-bottom: 100px;
+}
+.sec2{
+    margin: 0 300px 100px;
+}
+.pic-art{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+#side-pic{
+    height: 400px;
+    width: 500px;
+}
+.art-tittle{
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.art-des{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.side-btn{
+    background-color: rgb(249, 30, 30);
+    color: white;
+    border: none;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+}
+/* Update part starts here */
+.Update{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.update-tittle{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.update-des{
+    padding: 30px 400px 0 400px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.box{
+    margin: 0 325px 30px 325px;
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 1160px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: lightgrey;
+    color: black;
+    border: none;
+   
+}
+button{
+    padding: 12px;
+    height: 60px;
+    width: 160px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgb(249, 30, 30);
+    color: white;
+    border: none;
+   
+}
+.in-sub{
+    display: flex;
+    padding: 120px 330px;
+    margin-bottom: 100px;
+}
+
+/* Finally Footer section */
+
+footer{
+    text-align: center;
+    padding: 30px 30px 0 30px;
+    height: 100px;
+    background-color: rgb(95, 72, 72);
+}
+.f1{
+    margin-bottom: 10px;
+    color: lightblue;
+}
+.f2{
+    font-size: 25px;
 }
