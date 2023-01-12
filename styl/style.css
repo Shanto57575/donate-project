@@ -6,24 +6,22 @@
     color: whitesmoke;
     padding: 200px 320px 0 320px;
     font-weight: 700;
-    font-size: 500%;
+    font-size: 70px;
     margin-bottom: 20px;
 }
 .head-des{
-    font-size: 20px;
     padding: 0 500px 0 500px;
     margin-bottom: 20px;
 }
 .btn-pri{
-    margin: 20px 750px 0 750px;
     background-color: rgb(249, 30, 30);
     color: white;
     border: none;
-    height: 70px;
+    height: 60px;
     width: 180px;
     border-radius: 10px;
-    font-size: 25px;
-    padding: 15px;
+    font-size: 20px;
+    padding: 10px;
 }
 
 nav{
@@ -35,7 +33,11 @@ nav{
     color: white;
     font-weight: 800;
 }
-
+.cen{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 /* Donate Today */
 
 .sec-tittle{
@@ -167,10 +169,12 @@ nav{
 }
 
 .box{
-    margin: 0 325px 30px 325px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
     background-color: blanchedalmond;
     height: 300px;
-    width: 1160px;
+    width: 800px;
     border-radius: 10px;
 }
 input{
@@ -195,8 +199,8 @@ button{
 }
 .in-sub{
     display: flex;
-    padding: 120px 330px;
-    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Finally Footer section */
